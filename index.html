@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1 class="title">ROCK PAPER SCISSORS GAME</h1>
+        <button class="theme">Change Theme</button>
+        <div class="container js-container">
+            <!--<img src="images/tablet-template-2-removebg-preview.png">-->
+
+                    <button class="btn" id="rock-btn">
+                       <img src="images/rock_emoji-removebg-preview.png" alt="rock" class="rock">
+                    </button>
+                    <button class="btn" id="paper-btn">
+                        <img src="images/hand_emoji-removebg-preview.png" alt="paper" class="paper">
+                    </button>
+                    <button class="btn" id="scissors-btn">
+                        <img src="images/sccissors_emoji-removebg-preview.png" alt="scissors" class="scissors">
+                   
+                </div>
+
+                <div class="scoreboard">
+                    <p>Wins: </p>
+                    <p>Losses: </p>
+                    <p>Ties: </p>
+                </div>
+
+                <div class="playermove js-playermove-result-box">
+                    <p class="move-text js-result-text">you picked</p>
+                    <div class="move-box">
+                        <p class="js-playermove-result"></p>
+                    </div>
+                </div>
+                <div class="computermove js-computermove-result-box">
+                    <p class="move-text js-result-text">computer picked</p>
+                    <div class="move-box">
+                        <p class="js-computermove-result"></p>
+                    </div>
+                </div>
+                <div class="scoreboard js-score-result-box">
+                    <p class="move-text js-result-text">the score is</p>
+                    <div class="move-box">
+                        <p class="js-result"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
