@@ -127,4 +127,4 @@ document.querySelector('.js-computermove-result').innerHTML = computermove;
 document.querySelector('.js-result').innerHTML = gameresult;
 
 }
-
+//noo
