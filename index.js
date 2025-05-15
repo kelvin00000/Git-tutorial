@@ -128,3 +128,4 @@ document.querySelector('.js-result').innerHTML = gameresult;
 
 }
 //noo
+console.log('Version 12')
